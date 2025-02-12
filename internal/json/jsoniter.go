@@ -8,7 +8,7 @@
 package json
 
 import (
-	jsoniter "github.com/json-iterator/go"
+	jsoniter "github.com/Azaki-san/json-iterator"
 )
 
 func init() {
