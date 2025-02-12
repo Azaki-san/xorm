@@ -1,4 +1,4 @@
-module github.com/Azaki-san
+module github.com/Azaki-san/xorm
 
 go 1.24
 
