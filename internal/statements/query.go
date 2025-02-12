@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"strings"
 
-	"xorm.io/builder"
-	"xorm.io/xorm/schemas"
+	"github.com/Azaki-san/xorm-builder"
+	"github.com/Azaki-san/xorm/schemas"
 )
 
 // GenQuerySQL generate query SQL

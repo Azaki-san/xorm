@@ -7,11 +7,10 @@ package statements
 import (
 	"errors"
 	"fmt"
+	"github.com/Azaki-san/xorm-builder"
+	"github.com/Azaki-san/xorm/internal/utils"
+	"github.com/Azaki-san/xorm/schemas"
 	"strings"
-
-	"xorm.io/builder"
-	"xorm.io/xorm/internal/utils"
-	"xorm.io/xorm/schemas"
 )
 
 func (statement *Statement) writeInsertOutput(buf *strings.Builder, table *schemas.Table) error {

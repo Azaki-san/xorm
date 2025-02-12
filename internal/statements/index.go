@@ -7,8 +7,8 @@ package statements
 import (
 	"strings"
 
-	"xorm.io/builder"
-	"xorm.io/xorm/schemas"
+	"github.com/Azaki-san/xorm-builder"
+	"github.com/Azaki-san/xorm/schemas"
 )
 
 type ErrInvalidIndexHintOperator struct {

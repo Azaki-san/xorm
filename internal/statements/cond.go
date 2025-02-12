@@ -5,8 +5,8 @@
 package statements
 
 import (
-	"xorm.io/builder"
-	"xorm.io/xorm/schemas"
+	"github.com/Azaki-san/xorm-builder"
+	"github.com/Azaki-san/xorm/schemas"
 )
 
 type QuoteReplacer struct {

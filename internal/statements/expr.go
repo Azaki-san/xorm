@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"xorm.io/builder"
-	"xorm.io/xorm/schemas"
+	"github.com/Azaki-san/xorm-builder"
+	"github.com/Azaki-san/xorm/schemas"
 )
 
 // ErrUnsupportedExprType represents an error with unsupported express type

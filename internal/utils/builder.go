@@ -7,7 +7,7 @@ package utils
 import (
 	"fmt"
 
-	"xorm.io/builder"
+	"github.com/Azaki-san/xorm-builder"
 )
 
 type BuildReader interface {

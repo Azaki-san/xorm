@@ -5,11 +5,11 @@
 package dialects
 
 import (
+	"github.com/Azaki-san/xorm/internal/utils"
 	"strings"
 	"time"
-	"xorm.io/xorm/internal/utils"
 
-	"xorm.io/xorm/schemas"
+	"github.com/Azaki-san/xorm/schemas"
 )
 
 // FormatColumnTime format column time

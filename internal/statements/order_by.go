@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"xorm.io/builder"
+	"github.com/Azaki-san/xorm-builder"
 )
 
 type orderBy struct {

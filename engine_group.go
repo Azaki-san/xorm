@@ -8,11 +8,11 @@ import (
 	"context"
 	"time"
 
-	"xorm.io/xorm/caches"
-	"xorm.io/xorm/contexts"
-	"xorm.io/xorm/dialects"
-	"xorm.io/xorm/log"
-	"xorm.io/xorm/names"
+	"github.com/Azaki-san/xorm/caches"
+	"github.com/Azaki-san/xorm/contexts"
+	"github.com/Azaki-san/xorm/dialects"
+	"github.com/Azaki-san/xorm/log"
+	"github.com/Azaki-san/xorm/names"
 )
 
 // EngineGroup defines an engine group

@@ -7,8 +7,8 @@ package xorm
 import (
 	"strings"
 
-	"xorm.io/xorm/internal/utils"
-	"xorm.io/xorm/schemas"
+	"github.com/Azaki-san/xorm/internal/utils"
+	"github.com/Azaki-san/xorm/schemas"
 )
 
 type SyncOptions struct {

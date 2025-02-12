@@ -5,7 +5,7 @@
 package statements
 
 import (
-	"xorm.io/builder"
+	"github.com/Azaki-san/xorm-builder"
 )
 
 // isUsingLegacy returns true if xorm uses legacy LIMIT OFFSET.

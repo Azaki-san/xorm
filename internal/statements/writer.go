@@ -7,7 +7,7 @@ package statements
 import (
 	"fmt"
 
-	"xorm.io/builder"
+	"github.com/Azaki-san/xorm-builder"
 )
 
 func (statement *Statement) writeStrings(strs ...string) func(w *builder.BytesWriter) error {
