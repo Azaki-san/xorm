@@ -7,7 +7,7 @@ package caches
 import (
 	"log"
 
-	"github.com/syndtr/goleveldb/leveldb"
+	"github.com/golang-update/goleveldb/leveldb"
 )
 
 // LevelDBStore implements CacheStore provide local machine
